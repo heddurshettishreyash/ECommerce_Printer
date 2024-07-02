@@ -37,44 +37,7 @@ const Footer = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
               ab ullam, numquam nesciunt in.
             </p>
-            <ul className="flex items-center gap-2">
-              <a
-                href="https://www.youtube.com/@reactjsBD"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaYoutube />
-                </li>
-              </a>
-              <a
-                href="https://github.com/noorjsdivs"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaGithub />
-                </li>
-              </a>
-              <a
-                href="https://www.facebook.com/Noorlalu143/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaFacebook />
-                </li>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaLinkedin />
-                </li>
-              </a>
-            </ul>
+
           </div>
         </div>
         <div>
@@ -158,9 +121,8 @@ const Footer = () => {
             )}
 
             <Image
-              className={`w-[80%] lg:w-[60%] mx-auto ${
-                subscription ? "mt-2" : "mt-6"
-              }`}
+              className={`w-[80%] lg:w-[60%] mx-auto ${subscription ? "mt-2" : "mt-6"
+                }`}
               imgSrc={paymentCard}
             />
           </div>
